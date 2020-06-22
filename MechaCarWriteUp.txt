@@ -23,3 +23,17 @@ Suspension Coil T-Test
 
 Doing a one sample T-Test to see if mean PSI = 1500. The test results show that the p-value is 0.06.
 Since it is greater than the significance level 0.05, we fail to reject the null hypothesis thereby concluding that the mean PSI is equal to 1500.
+
+
+
+Design Your Own Study
+
+1. Price
+Ho = The mean price of the MechaCar prototypes is equal to other vehicles
+Ha = The mean price of the MechaCar prototypes is not equal to other vehicles
+Test = Two - sample T-test
+
+2. Fuel Efficiency
+Ho = The fuel efficiency of the MechaCar prototypes is equal to other vehicles
+Ha = The fuel efficiency of the MechaCar prototypes is not equal to other vehicles
+Test = Two - sample T-test
