@@ -1,0 +1,25 @@
+MPG Regression
+
+Looking at the Pr(>|t|) values we can see that both vehicle length and ground clearance are statistically significant as the values are less than 0.05.
+We can conclude that there is a positive relationship between MPG - vehicle length and MPG - ground clearance.
+The R-squared value is ~70% which means 70% of all predictions using the model will be accurate. Therefore we can say that the model predicts MPG of MechaCar prototypes effectively.
+The Ho = Slope of the equation is 0. Since the p-value is 2.277e-11 which is far lesser than the significance level 0.05 we can reject the null hypothesis and conclude that the slope of the equation is not zero.
+
+
+
+Suspension Coil Summary
+
+Mean PSI = 1498.78
+Median PSI = 1500
+Variance PSI = 62.3
+Std Dev PSI = 7.9
+
+Looking at the overall summary we can say that the variance meets the MechaCar requirement (less than 100).
+However, looking at each lot we can see that while Lot1 and Lot2 meet the requirement, Lot3 variance is 170 which is way above the threshold.
+
+
+
+Suspension Coil T-Test
+
+Doing a one sample T-Test to see if mean PSI = 1500. The test results show that the p-value is 0.06.
+Since it is greater than the significance level 0.05, we fail to reject the null hypothesis thereby concluding that the mean PSI is equal to 1500.
